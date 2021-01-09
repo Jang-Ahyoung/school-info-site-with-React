@@ -1,0 +1,240 @@
+[
+	{
+		"bus_number" : "7번" ,
+		"campus" : "7 : 05" ,
+		"station" : "7 : 18" ,
+		"youngNamRoo" : "7 : 25" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "7 : 20" ,
+		"station" : "7 : 32" ,
+		"youngNamRoo" : "7 : 40" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "7 : 40" ,
+		"station" : "7 : 56" ,
+		"youngNamRoo" : "8 : 03" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "8 : 35" ,
+		"station" : "8 : 52" ,
+		"youngNamRoo" : "8 : 59" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1번" ,
+		"campus" : "8 : 56" ,
+		"station" : "9 : 12" ,
+		"youngNamRoo" : "9 : 19" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "9 : 08" ,
+		"station" : "9 : 24" ,
+		"youngNamRoo" : "9 : 31" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1번" ,
+		"campus" : "9 : 45" ,
+		"station" : "10 : 00" ,
+		"youngNamRoo" : "X 번" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "7번" ,
+		"campus" : "10 : 00" ,
+		"station" : "10 : 16" ,
+		"youngNamRoo" : "10 : 23" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "10 : 17" ,
+		"station" : "10 : 28" ,
+		"youngNamRoo" : "10 : 35" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "10 : 35" ,
+		"station" : "10 : 52" ,
+		"youngNamRoo" : "10 : 59" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "7-1번" ,
+		"campus" : "12:00" ,
+		"station" : "12:16" ,
+		"youngNamRoo" : "12:23" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1번" ,
+		"campus" : "12:20" ,
+		"station" : "12:40" ,
+		"youngNamRoo" : "12:47" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1번" ,
+		"campus" : "1:04" ,
+		"station" : "1:20" ,
+		"youngNamRoo" : "1:27" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1번" ,
+		"campus" : "1 : 25" ,
+		"station" : "1 : 36" ,
+		"youngNamRoo" : "1 : 43" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1번" ,
+		"campus" : "1 : 52" ,
+		"station" : "2 : 08" ,
+		"youngNamRoo" : "2 : 15" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "4-2번" ,
+		"campus" : "2 : 40" ,
+		"station" : "2 : 56" ,
+		"youngNamRoo" : "X" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "3 : 28" ,
+		"station" : "3 : 40" ,
+		"youngNamRoo" : "3 : 47" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "4-1번" ,
+		"campus" : "3 : 20" ,
+		"station" : "3 : 30" ,
+		"youngNamRoo" : "X " ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "3 : 56" ,
+		"station" : "4 : 12" ,
+		"youngNamRoo" : "4 : 19" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "4-1번" ,
+		"campus" : "4 : 18" ,
+		"station" : "4 : 28" ,
+		"youngNamRoo" : "X " ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "5 : 00" ,
+		"station" : "5 : 16" ,
+		"youngNamRoo" : "5 : 23" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "5 : 40" ,
+		"station" : "5 : 56" ,
+		"youngNamRoo" : "6 : 03" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "7번" ,
+		"campus" : "5 : 54" ,
+		"station" : "6 : 08" ,
+		"youngNamRoo" : "6 : 15" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "7-1번" ,
+		"campus" : "6 : 16" ,
+		"station" : "6 : 32" ,
+		"youngNamRoo" : "6 : 39" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "7번" ,
+		"campus" : "6 : 40" ,
+		"station" : "6 : 56" ,
+		"youngNamRoo" : "7 : 03" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "7 : 04" ,
+		"station" : "7 : 20" ,
+		"youngNamRoo" : "7 : 27" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "4번" ,
+		"campus" : "7 : 50" ,
+		"station" : "8 : 05" ,
+		"youngNamRoo" : "X " ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "8 : 02" ,
+		"station" : "8 : 18" ,
+		"youngNamRoo" : "8 : 25" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "6번" ,
+		"campus" : "8 : 20" ,
+		"station" : "8 : 30" ,
+		"youngNamRoo" : "8 : 37" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "8 : 50" ,
+		"station" : "9 : 07" ,
+		"youngNamRoo" : "9 : 14" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "4-1번" ,
+		"campus" : "9 : 15" ,
+		"station" : "9 : 28" ,
+		"youngNamRoo" : "X" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "10 : 08" ,
+		"station" : "10 : 24" ,
+		"youngNamRoo" : "10 : 31" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "10 : 40" ,
+		"station" : "11 : 00" ,
+		"youngNamRoo" : "11 : 07" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2번" ,
+		"campus" : "11 : 10" ,
+		"station" : "11 : 20" ,
+		"youngNamRoo" : "11 : 27" ,
+		"Tunnel" : "O" 
+	}
+]

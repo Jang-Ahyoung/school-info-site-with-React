@@ -1,0 +1,135 @@
+[
+	{
+		"bus_number" : "" ,
+		"youngNamRoo" : "" ,
+		"station" : "0.277777777777778" ,
+		"campus" : "0.284722222222222" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2��" ,
+		"youngNamRoo" : "" ,
+		"station" : "0.295138888888889" ,
+		"campus" : "0.298611111111111" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1��" ,
+		"youngNamRoo" : "" ,
+		"station" : "0.302083333333333" ,
+		"campus" : "0.309027777777778" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1��" ,
+		"youngNamRoo" : "0.340277777777778" ,
+		"station" : "0.345138888888889" ,
+		"campus" : "0.352083333333333" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1��" ,
+		"youngNamRoo" : "0.35625" ,
+		"station" : "0.364583333333333" ,
+		"campus" : "0.371527777777778" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "7��" ,
+		"youngNamRoo" : "0.392361111111111" ,
+		"station" : "0.399305555555556" ,
+		"campus" : "0.40625" ,
+		"Tunnel" : "O" 
+	},
+	{
+		"bus_number" : "�� ��" ,
+		"youngNamRoo" : "0.427083333333333" ,
+		"station" : "0.431944444444444" ,
+		"campus" : "0.438888888888889" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "7��" ,
+		"youngNamRoo" : "" ,
+		"station" : "0.475" ,
+		"campus" : "0.481944444444444" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "7��" ,
+		"youngNamRoo" : "" ,
+		"station" : "0.523611111111111" ,
+		"campus" : "0.530555555555556" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "3-1��" ,
+		"youngNamRoo" : "6.18055555555556E-02" ,
+		"station" : "6.66666666666667E-02" ,
+		"campus" : "7.36111111111111E-02" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "2��" ,
+		"youngNamRoo" : "" ,
+		"station" : "0.523611111111111" ,
+		"campus" : "0.113888888888889" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1��" ,
+		"youngNamRoo" : "0.136805555555556" ,
+		"station" : "0.141666666666667" ,
+		"campus" : "0.148611111111111" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "7��" ,
+		"youngNamRoo" : "0.189583333333333" ,
+		"station" : "0.194444444444444" ,
+		"campus" : "0.201388888888889" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1��" ,
+		"youngNamRoo" : "0.21875" ,
+		"station" : "0.223611111111111" ,
+		"campus" : "0.230555555555556" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "6��" ,
+		"youngNamRoo" : "" ,
+		"station" : "0.245833333333333" ,
+		"campus" : "0.252777777777778" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "6��" ,
+		"youngNamRoo" : "0.247916666666667" ,
+		"station" : "0.252777777777778" ,
+		"campus" : "0.259722222222222" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1��" ,
+		"youngNamRoo" : "0.274305555555556" ,
+		"station" : "0.279166666666667" ,
+		"campus" : "0.284722222222222" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "" ,
+		"youngNamRoo" : "0.315972222222222" ,
+		"station" : "0.320833333333333" ,
+		"campus" : "0.327777777777778" ,
+		"Tunnel" : "" 
+	},
+	{
+		"bus_number" : "1��" ,
+		"youngNamRoo" : "0.424305555555556" ,
+		"station" : "0.429166666666667" ,
+		"campus" : "0.436111111111111" ,
+		"Tunnel" : "" 
+	}
+]
