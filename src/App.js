@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import '@fortawesome/fontawesome-free/js/all.js';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Meals from './components/meals/meals';
 import Navbar from './components/nav/navbar';
 
@@ -48,8 +49,25 @@ function App() {
   }, []);
   return (
     <>
-      <Navbar />
-      <Meals meals={meals} />
+      <div >
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/">
+              {/* / 홈화면 일때는 로그인화면으로 가게 만 */}
+              <Navbar />
+            </Route>
+
+            <Route path="/meal">
+              <Navbar />
+              <Meals meals={meals} />
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </div >
+
+
+
+
     </>
   );
 }

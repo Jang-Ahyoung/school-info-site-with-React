@@ -4,7 +4,7 @@
   align-items: center;
   font-size: 1.5rem;
   background: #263343;
-  padding: 15px 15px;
+  padding: 8px 15px;
   color: white;
 }
 .logo {
@@ -20,6 +20,10 @@
 .menu {
   font-size: 18px;
   margin: 0.5rem;
+}
+.link {
+  text-decoration: none;
+  color: white;
 }
 .icon {
   padding: 7px 10px;
@@ -92,7 +96,7 @@
     flex-direction: column;
   }
   .navbar {
-    padding: 10px 0px;
+    padding: 8px 0px;
   }
   .icon {
     font-size: 15px;

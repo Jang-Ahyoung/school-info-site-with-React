@@ -1,19 +1,26 @@
 import React from 'react';
+import {Link } from 'react-router-dom';
 import styles from './navbar.module.css';
 const Navbar = (props) => (
             <nav className={styles.navbar}>
-                <section className={styles.logo}>
-                    <div className={styles.logonIcon}><i class="fab fa-slack"></i></div>
-                    PNU INFO
-                </section>
-
+                <Link to="/" className={styles.link}>
+                    <section className={styles.logo}>
+                        <div className={styles.logonIcon}><i class="fab fa-slack"></i></div>
+                        PNU INFO
+                    </section>
+                </Link>
+                
                 <section className={styles.menu}>
                     <span className={styles.icon}>
                         <a className="fas fa-bus" href=""></a>
                     </span>
                     <span className={styles.icon}>
-                        <a className="fas fa-utensils"  href="https://dorm.pusan.ac.kr/mdorm/function/mealPlan/40000403"></a>
-                        <span className={styles.text}>긱</span>
+                        <Link to="/meal" className={styles.link}>
+                            <a className="fas fa-utensils" ></a>
+                            <span className={styles.text}>긱</span>
+                        
+                        </Link>
+                        
                     </span>
                     <span className={styles.icon}>
                         <a className="fas fa-utensils" href="https://mw.pusan.ac.kr/10_Food/Food.asp?boardName=R005"></a>
