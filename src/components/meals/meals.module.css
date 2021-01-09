@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap");
 .circle {
   position: absolute;
-  top: 3%;
+  top: 18%;
   z-index: 1;
   width: 4rem;
   height: 4rem;
@@ -26,7 +26,7 @@
 }
 .title {
   position: absolute;
-  top: 7%;
+  top: 22%;
   font-size: 1.8rem;
   color: snow;
   background-color: rgba(130, 179, 219, 0.705);
@@ -57,11 +57,19 @@
     width: 56rem;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .circle {
+    top: 20%;
+  }
+  .title {
+    top: 24%;
+  }
+}
 @media screen and (max-width: 499px) {
   .contanier {
     padding-top: 8rem;
   }
+
   .date {
     width: 80%;
     min-width: 0;

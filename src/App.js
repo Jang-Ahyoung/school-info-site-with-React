@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Meals from './components/meals';
+import '@fortawesome/fontawesome-free/js/all.js';
+import Meals from './components/meals/meals';
+import Navbar from './components/nav/navbar';
 
 function App() {
 
@@ -46,6 +48,7 @@ function App() {
   }, []);
   return (
     <>
+      <Navbar />
       <Meals meals={meals} />
     </>
   );

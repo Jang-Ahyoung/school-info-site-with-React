@@ -1,5 +1,5 @@
 import React from 'react';
-import Meal from './meal/meal';
+import Meal from '../meal/meal';
 import styles from './meals.module.css';
 
 const Meals = (props) => {
@@ -11,7 +11,8 @@ console.log(date);
 const week = ['일', '월', '화', '수', '목', '금', '토'];
  
     return(
-        <ul className={styles.contanier}> <div className={styles.circle}></div>
+        <ul className={styles.contanier}> 
+        <div className={styles.circle}></div>
         <p className={styles.title}>기숙사 식단표 🍚</p>
             <div className={styles.date}>{
                 mealDate.map((mealdate)=>{

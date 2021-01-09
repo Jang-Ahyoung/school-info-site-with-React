@@ -1,0 +1,104 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  background: #263343;
+  padding: 15px 15px;
+  color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logonIcon {
+  font-size: 30px;
+  color: pink;
+  padding-right: 0.8rem;
+}
+
+.menu {
+  font-size: 18px;
+  margin: 0.5rem;
+}
+.icon {
+  padding: 7px 10px;
+  margin: 0 2px;
+}
+
+.icon:hover {
+  background-color: rgb(248, 157, 144);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 12px;
+  margin-left: 0.3rem;
+}
+.contact {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.contact {
+  margin-right: 20px;
+  cursor: pointer;
+  transition: transform 500ms ease;
+}
+
+.contact:hover {
+  transform: scale(1.1);
+}
+
+.message {
+  position: relative;
+  display: inline-block;
+  border-color: olive;
+}
+
+.message .message_text {
+  visibility: hidden;
+  font-size: 1rem;
+  width: 220px;
+  background-color: rgb(227, 186, 243);
+  color: navy;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 15px;
+  position: absolute;
+  z-index: 1;
+  top: 140%;
+  right: -110%;
+}
+
+.message .message_text::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 87%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent rgb(227, 186, 243) transparent;
+}
+
+.message:hover .message_text {
+  visibility: visible;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar {
+    padding: 10px 0px;
+  }
+  .icon {
+    font-size: 15px;
+    /* margin-top: 10px; */
+  }
+  .contact {
+    display: none;
+  }
+}
