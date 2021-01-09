@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap");
+.circle {
+  position: absolute;
+  top: 3%;
+  z-index: 1;
+  width: 4rem;
+  height: 4rem;
+  border: 3px solid pink;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.74);
+}
+.contanier {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3.2rem;
+  margin-bottom: 2rem;
+  padding-top: 7rem;
+  background-image: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  width: 95%;
+  border-radius: 20px;
+}
+.title {
+  position: absolute;
+  top: 7%;
+  font-size: 1.8rem;
+  color: snow;
+  background-color: rgba(130, 179, 219, 0.705);
+  padding: 1.2rem 1.5rem;
+  border-radius: 20px;
+}
+.line {
+  height: 12.9rem;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 10rem;
+}
+.mealdate {
+  text-align: center;
+  width: 5.5rem;
+  background-color: white;
+  padding: 2rem 1rem;
+  margin: 3rem;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 950px) {
+  .contanier {
+    width: 56rem;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .contanier {
+    padding-top: 8rem;
+  }
+  .date {
+    width: 80%;
+    min-width: 0;
+    margin-right: 0rem;
+  }
+  .mealdate {
+    display: flex;
+    align-items: center;
+    width: 4rem;
+    height: 12rem;
+    padding: 0rem 0.5rem;
+    margin-top: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .contanier {
+    padding-top: 8rem;
+    width: 95%;
+  }
+  .date {
+    min-width: 0;
+  }
+  .mealdate {
+    display: flex;
+    align-items: center;
+    width: 4rem;
+    height: 12rem;
+    padding: 0;
+    margin-top: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 281px) {
+  .contanier {
+    padding-top: 8rem;
+    width: 95%;
+  }
+  .title {
+    padding: 1.2rem 0.7rem;
+    font-size: 1.8rem;
+  }
+  .mealdate {
+    width: 3.5rem;
+    height: 12rem;
+    margin-right: 2.5rem;
+    margin-top: 0.3rem;
+  }
+  .meals {
+    padding-left: 0.5rem;
+    margin-right: -0.5rem;
+  }
+}
