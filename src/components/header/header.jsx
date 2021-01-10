@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link } from 'react-router-dom';
-import styles from './navbar.module.css';
-const Navbar = (props) => (
+import styles from './header.module.css';
+const Header = (props) => (
             <nav className={styles.navbar}>
                 <Link to="/" className={styles.link}>
                     <section className={styles.logo}>
@@ -42,4 +42,4 @@ const Navbar = (props) => (
             </nav>
     );
 
-export default Navbar;
+export default Header;

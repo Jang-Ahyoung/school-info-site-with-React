@@ -1,15 +1,16 @@
 import React,{useMemo} from 'react';
-import BUS_DATA from '../JSON_File/week_CampusToStation.json';
-import {COLUMNS} from '../JSON_File/cloumns';
+import BUS_DATA from '../../JSON_File/week_CampusToStation.json';
+import {COLUMNS} from '../../JSON_File/cloumns';
 import {useTable} from 'react-table';
-import styles from './table.module.css';
+import styles from './table_station.module.css';
 
 
 //rafc
-export const Table =()=>{
+export const Table =(props)=>{
+
 
     const columns = useMemo(()=>COLUMNS,[]);
-    const data = useMemo(()=>BUS_DATA,[]);
+    const data = useMemo(()=>props.data,[]);
 
 
     //useTable hook -> useMemo 사용
@@ -20,10 +21,11 @@ export const Table =()=>{
         data
     })
 
+
     const {getTableProps, getTableBodyProps,headerGroups,rows,prepareRow}=tableInstance;
 
     return(
-        <table {...getTableProps()} className={styles.contanier}> 
+        <table {...getTableProps()} className={styles.contanier} > 
             <thead>
                 {
                     headerGroups.map(headerGroups=>(
