@@ -1,0 +1,31 @@
+.container {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: white;
+}
+
+.nav_menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  text-align: center;
+  font-size: 0.88rem;
+  width: 25%;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.nav_menu:hover {
+  transition: all 0.5s ease;
+  color: white;
+  background: rgba(102, 177, 241, 0.8);
+  /* -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease; */
+}

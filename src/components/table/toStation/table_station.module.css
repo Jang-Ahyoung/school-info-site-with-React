@@ -16,19 +16,19 @@ table th {
   color: white;
 }
 table tr {
-  background-color: #454d55;
+  background-color: #455355;
 }
 table tr:nth-child(even) {
   background-color: #343a40;
 }
 table th:first-child {
   width: 20%;
-  min-width: 4rem;
+  /* min-width: 4rem; */
 }
 
 table th:last-child {
   width: 15%;
-  min-width: 4rem;
+  /* min-width: 3rem; */
 }
 
 table tr:hover {
@@ -37,7 +37,7 @@ table tr:hover {
 
 table th {
   position: sticky;
-  top: 0rem;
+  top: 70px;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;

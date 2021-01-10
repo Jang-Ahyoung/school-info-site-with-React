@@ -5,9 +5,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Meals from './components/meals/meals';
 import Header from './components/header/header';
 import { Table } from './components/table/toStation/table_tostation';
-import TO_STATION_BUS_DATA from './components/JSON_File/week_CampusToStation.json';
-import TO_STATION_BUS_DATA_VAC from './components/JSON_File/vac_CampusToStation.json';
-import TO_STATION_BUS_DATA_VAC_ONLY from './components/JSON_File/vacCampusOnly_CampusToStation.json';
+// import TO_STATION_BUS_DATA from './components/JSON_File/week_CampusToStation.json';
+// import TO_STATION_BUS_DATA_VAC from './components/JSON_File/vac_CampusToStation.json';
+// import TO_STATION_BUS_DATA_VAC_ONLY from './components/JSON_File/vacCampusOnly_CampusToStation.json';
 import TO_CAMPUS_BUS_DATA from './components/JSON_File/week_StationToCampus';
 import TO_CAMPUS_BUS_DATA_VAC from './components/JSON_File/vac_StationToCampus';
 import TO_CAMPUS_BUS_DATA_VAC_ONLY from './components/JSON_File/vacCampusOnly_StationToCampus';
@@ -16,9 +16,9 @@ import { Table2 } from './components/table/table_toCampus';
 import Navbar from './components/bus_navbar/navbar';
 
 function App() {
-  const dataS = TO_STATION_BUS_DATA;
-  const data_vacS = TO_STATION_BUS_DATA_VAC;
-  const data_vac_onlyS = TO_STATION_BUS_DATA_VAC_ONLY;
+  // const dataS = TO_STATION_BUS_DATA;
+  // const data_vacS = TO_STATION_BUS_DATA_VAC;
+  // const data_vac_onlyS = TO_STATION_BUS_DATA_VAC_ONLY;
   const dataC = TO_CAMPUS_BUS_DATA;
   const data_vacC = TO_CAMPUS_BUS_DATA_VAC;
   const data_vac_onlyC = TO_CAMPUS_BUS_DATA_VAC_ONLY;
@@ -71,9 +71,9 @@ function App() {
           <Navbar />
           {/* <Table2 /> */}
 
-          <Table data={dataS} />
-          <Table data={data_vacS} />
-          <Table data={data_vac_onlyS} />
+          {/* <Table id={"dataS"} data={dataS} />
+          <Table id={"data_vacS"} data={data_vacS} />
+          <Table id={"data_vac_onlyS"} data={data_vac_onlyS} /> */}
           {/* <Table1 data={data} /> */}
         </Route>
 

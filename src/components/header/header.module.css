@@ -71,7 +71,7 @@
   border-radius: 10px;
   padding: 10px 15px;
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   top: 140%;
   right: -110%;
 }
@@ -88,6 +88,7 @@
 }
 
 .message:hover .message_text {
+  z-index: 0;
   visibility: visible;
 }
 
