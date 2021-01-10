@@ -11,9 +11,11 @@ const Header = (props) => (
                 </Link>
                 
                 <section className={styles.menu}>
-                    <span className={styles.icon}>
-                        <a className="fas fa-bus" href=""></a>
-                    </span>
+                    <Link to="/bus" className={styles.link}>
+                        <span className={styles.icon}>
+                            <a className="fas fa-bus" href=""></a>
+                        </span>
+                    </Link>
                     <span className={styles.icon}>
                         <Link to="/meal" className={styles.link}>
                             <a className="fas fa-utensils" ></a>

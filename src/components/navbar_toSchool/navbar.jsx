@@ -9,10 +9,13 @@ import { Table } from '../table/toStation/table_tostation';
 const Navbar = (props) => {
     const dataS = TO_STATION_BUS_DATA;
   const data_vacS = TO_STATION_BUS_DATA_VAC;
+  
+
   const data_vac_onlyS = TO_STATION_BUS_DATA_VAC_ONLY;
     
-    const week = document.getElementById("dataS");
+    // const week = document.getElementById("dataS");
     const vac = document.getElementById("data_vacS");
+    console.log(vac);
     const vacOnly = document.getElementById("data_vac_onlyS");
 
     const scrollToWeek=()=>{
@@ -42,15 +45,13 @@ const Navbar = (props) => {
             </div>
 
             <div id="data_vacS">
-                <Table id={"data_vacS"} data={data_vacS} />
+                <Table data={data_vacS} />
             </div>
 
             <div id="data_vac_onlyS">
                 <Table data={data_vac_onlyS} />
             </div>
-            
-          
-          
+
         </>
     );
 
