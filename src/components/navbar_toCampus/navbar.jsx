@@ -19,10 +19,10 @@ const NavbarC = (props) => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
     const scrollToVac=()=>{
-        window.scrollTo({ top: 1440, behavior: 'smooth' });
+        window.scrollTo({ top: 1462, behavior: 'smooth' });
     };
     const scrollToVacOnly=()=>{
-        window.scrollTo({ top: 2134, behavior: 'smooth' });
+        window.scrollTo({ top: 2177, behavior: 'smooth' });
         // vacOnlyC.scrollIntoView({behavior:'smooth'});
     };
     

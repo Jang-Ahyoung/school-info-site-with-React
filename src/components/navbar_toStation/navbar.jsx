@@ -22,11 +22,11 @@ const Navbar = (props) => {
         // week.scrollIntoView({behavior:'smooth',block:'start'});
     };
     const scrollToVac=()=>{
-        window.scrollTo({ top: 1440, behavior: 'smooth' }); 
+        window.scrollTo({ top: 1465, behavior: 'smooth' }); 
         // vac.scrollIntoView({behavior:'smooth'});
     };
     const scrollToVacOnly=()=>{
-        window.scrollTo({ top: 2134, behavior: 'smooth' });
+        window.scrollTo({ top: 2183, behavior: 'smooth' });
         // vacOnly.scrollIntoView({behavior:'smooth'});
     };
     
