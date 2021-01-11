@@ -1,5 +1,3 @@
-import React from 'react';
-
 class MealAPI {
     constructor() {
         this.requestOptions = {

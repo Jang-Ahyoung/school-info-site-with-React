@@ -25,8 +25,4 @@ export const COLUMNS = [
         accessor: 'Tunnel'
     },
 
-
-
-
-
 ]

@@ -4,10 +4,6 @@ table {
   width: 100%;
 }
 
-/* #454d55 */
-/* #95999c */
-/* #343a40 */
-
 table td,
 table th {
   border: 1px solid #343a40;
@@ -23,12 +19,10 @@ table tr:nth-child(even) {
 }
 table th:first-child {
   width: 20%;
-  /* min-width: 4rem; */
 }
 
 table th:last-child {
   width: 15%;
-  /* min-width: 3rem; */
 }
 
 table tr:hover {

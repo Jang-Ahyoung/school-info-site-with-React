@@ -1,0 +1,7 @@
+.pointBar {
+  position: absolute;
+  top: 65px;
+  background-color: rgba(101, 177, 243, 0.8);
+  width: 25%;
+  height: 6px;
+}

@@ -1,7 +1,7 @@
 [
  {
-   "bus_number": "",
-   "youngNamRoo": "",
+   "bus_number": "-",
+   "youngNamRoo": "X",
    "station": "7:05",
    "campus": "7:10",
    "Tunnel": ""
@@ -29,21 +29,21 @@
  },
  {
    "bus_number": "7번",
-   "youngNamRoo": "",
+   "youngNamRoo": "X",
    "station": "11:24",
    "campus": "11:34",
    "Tunnel": ""
  },
  {
    "bus_number": "7번",
-   "youngNamRoo": "",
-   "station": "12:34",
-   "campus": "12:44",
+   "youngNamRoo": "X",
+   "station": "PM 12:34",
+   "campus": "PM 12:44",
    "Tunnel": ""
  },
  {
    "bus_number": "7번",
-   "youngNamRoo": "",
+   "youngNamRoo": "X",
    "station": "2:34",
    "campus": "2:44",
    "Tunnel": ""
@@ -71,7 +71,7 @@
  },
  {
    "bus_number": "7번",
-   "youngNamRoo": "",
+   "youngNamRoo": "X",
    "station": "5:54",
    "campus": "6:04",
    "Tunnel": ""

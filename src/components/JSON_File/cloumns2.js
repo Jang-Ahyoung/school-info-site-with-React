@@ -1,5 +1,4 @@
 export const COLUMNS = [
-
     {
         Header: '버스 노선',
         accessor: 'bus_number'

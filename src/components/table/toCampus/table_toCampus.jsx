@@ -1,7 +1,4 @@
 import React,{useMemo} from 'react';
-// import BUS_DATA_WEEK from '../JSON_File/week_StationToCampus';
-// import BUS_DATA_VAC from '../JSON_File/vac_StationToCampus';
-// import BUS_DATA_VAC_ONLY from '../JSON_File/vacCampusOnly_StationToCampus';
 import {COLUMNS} from '../../JSON_File/cloumns2';
 import {useTable} from 'react-table';
 import styles from './table_toCampus.module.css';
@@ -12,16 +9,10 @@ export const Table2 =(props)=>{
 
     const columns = useMemo(()=>COLUMNS,[]);
     const data = useMemo(()=>props.data,[]);
-
-    //useTable hook -> useMemo 사용
-    const tableInstance1 = useTable({ //칼럽과, 열 2가지 속성
-        // columns:COLUMNS->columns,
-        // data:BUS_DATA->data
+    const tableInstance1 = useTable({ 
         columns,
         data
     })
-
-
     const {getTableProps, getTableBodyProps,headerGroups,rows,prepareRow}=tableInstance1;
 
     return(

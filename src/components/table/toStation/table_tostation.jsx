@@ -1,5 +1,4 @@
 import React,{useMemo} from 'react';
-import BUS_DATA from '../../JSON_File/week_CampusToStation.json';
 import {COLUMNS} from '../../JSON_File/cloumns';
 import {useTable} from 'react-table';
 import styles from './table_station.module.css';
@@ -7,12 +6,8 @@ import styles from './table_station.module.css';
 
 //rafc
 export const Table =(props)=>{
-
-
     const columns = useMemo(()=>COLUMNS,[]);
     const data = useMemo(()=>props.data,[]);
-
-
 
     //useTable hook -> useMemo 사용
     const tableInstance = useTable({ //칼럽과, 열 2가지 속성

@@ -1,21 +1,21 @@
 [
  {
-   "bus_number": "",
-   "youngNamRoo": "　",
+   "bus_number": "-",
+   "youngNamRoo": "X",
    "station": "6:40",
    "campus": "6:50",
-   "Tunnel": "　"
+   "Tunnel": ""
  },
  {
    "bus_number": "2번",
-   "youngNamRoo": "　",
+   "youngNamRoo": "X",
    "station": "7:05",
    "campus": "7:10",
    "Tunnel": "　"
  },
  {
    "bus_number": "1번",
-   "youngNamRoo": "　",
+   "youngNamRoo": "X",
    "station": "7:15",
    "campus": "7:25",
    "Tunnel": "　"
@@ -42,7 +42,7 @@
    "Tunnel": "O"
  },
  {
-   "bus_number": "오 후",
+   "bus_number": "-",
    "youngNamRoo": "10:15",
    "station": "10:22",
    "campus": "10:32",
@@ -50,65 +50,86 @@
  },
  {
    "bus_number": "7번",
-   "youngNamRoo": "　",
+   "youngNamRoo": "X",
    "station": "11:24",
    "campus": "11:34",
    "Tunnel": "　"
  },
  {
-   "bus_number": "",
-   "youngNamRoo": "　",
-   "station": "6:40",
+   "bus_number": "7번",
+   "youngNamRoo": "X",
+   "station": "PM 12:34",
+   "campus": "PM 12:44",
+   "Tunnel": "오후"
+ },
+ {
+   "bus_number": "3-1번",
+   "youngNamRoo": "1 : 29",
+   "station": "1:36",
+   "campus": "1:46",
+   "Tunnel": ""
+ },
+ {
+   "bus_number": "2번",
+   "youngNamRoo": "X",
+   "station": "2:34",
+   "campus": "2:44",
+   "Tunnel": "　"
+ },
+ {
+   "bus_number": "1번",
+   "youngNamRoo": "3:17",
+   "station": "3:24",
+   "campus": "3:34",
+   "Tunnel": ""
+ },
+ {
+   "bus_number": "7번",
+   "youngNamRoo": "4:33",
+   "station": "4:40",
+   "campus": "4:50",
+   "Tunnel": "　"
+ },
+ {
+   "bus_number": "1번",
+   "youngNamRoo": "5:15",
+   "station": "5:22",
+   "campus": "5:32",
+   "Tunnel": "　"
+ },
+ {
+   "bus_number": "6번",
+   "youngNamRoo": "X",
+   "station": "5:54",
+   "campus": "6:04",
+   "Tunnel": "　"
+ },
+ {
+   "bus_number": "6번",
+   "youngNamRoo": "5:57",
+   "station": "6:04",
+   "campus": "6:14",
+   "Tunnel": ""
+ },
+ {
+   "bus_number": "1번",
+   "youngNamRoo": "6:35",
+   "station": "6:42",
    "campus": "6:50",
    "Tunnel": "　"
  },
  {
-   "bus_number": "2번",
-   "youngNamRoo": "　",
-   "station": "7:05",
-   "campus": "7:10",
+   "bus_number": "-",
+   "youngNamRoo": "7:35",
+   "station": "7:42",
+   "campus": "7:52",
    "Tunnel": "　"
  },
  {
    "bus_number": "1번",
-   "youngNamRoo": "　",
-   "station": "7:15",
-   "campus": "7:25",
-   "Tunnel": "　"
- },
- {
-   "bus_number": "1번",
-   "youngNamRoo": "8:10",
-   "station": "8:17",
-   "campus": "8:27",
-   "Tunnel": "　"
- },
- {
-   "bus_number": "1번",
-   "youngNamRoo": "8:33",
-   "station": "8:45",
-   "campus": "8:55",
-   "Tunnel": "O"
- },
- {
-   "bus_number": "7번",
-   "youngNamRoo": "9:25",
-   "station": "9:35",
-   "campus": "9:45",
-   "Tunnel": "O"
- },
- {
-   "bus_number": "오 후",
-   "youngNamRoo": "10:15",
-   "station": "10:22",
-   "campus": "10:32",
-   "Tunnel": "　"
- },
- {
-   "bus_number": "7번",
-   "youngNamRoo": "　",
-   "station": "11:24",
-   "campus": "11:34",
+   "youngNamRoo": "10:11",
+   "station": "10:18",
+   "campus": "10:28",
    "Tunnel": "　"
  }
 ]
