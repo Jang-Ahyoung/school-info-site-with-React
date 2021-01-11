@@ -7,6 +7,7 @@ import Header from './components/header/header';
 import Navbar from './components/navbar_toStation/navbar';
 import NavbarC from './components/navbar_toCampus/navbar';
 import BusMain from './components/bus_main/busmain';
+import Main from './components/main/main';
 
 function App({ meal }) {
   const [meals, setMeals] = useState([]);
@@ -21,6 +22,7 @@ function App({ meal }) {
       <Switch>
         <Route exact path="/">
           <Header />
+          <Main />
         </Route>
 
         <Route exact path="/bus">
