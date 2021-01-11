@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../navbar_toSchool/navbar.module.css';
+import styles from '../navbar_toStation/navbar.module.css';
 import TO_CAMPUS_BUS_DATA from '../JSON_File/week_StationToCampus';
 import TO_CAMPUS_BUS_DATA_VAC from '../JSON_File/vac_StationToCampus';
 import TO_CAMPUS_BUS_DATA_VAC_ONLY from '../JSON_File/vacCampusOnly_StationToCampus';
@@ -16,15 +16,14 @@ const NavbarC = (props) => {
     const vacOnlyC = document.getElementById("data_vac_only");
 
     const scrollToWeek=()=>{
-        window.scrollTo({ top: 0, behavior: 'smooth' }) 
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
     const scrollToVac=()=>{
-
-        vacC.scrollIntoView({behavior:'smooth'});
+        window.scrollTo({ top: 1440, behavior: 'smooth' });
     };
     const scrollToVacOnly=()=>{
-        // window.scrollTo({ top: 1480, behavior: 'smooth' });
-        vacOnlyC.scrollIntoView({behavior:'smooth'});
+        window.scrollTo({ top: 2134, behavior: 'smooth' });
+        // vacOnlyC.scrollIntoView({behavior:'smooth'});
     };
     
     return(

@@ -24,10 +24,14 @@ const Header = (props) => (
                         </Link>
                         
                     </span>
-                    <span className={styles.icon}>
+                    <Link to="https://mw.pusan.ac.kr/10_Food/Food.asp?boardName=R005" className={styles.link}>
+
+                        <span className={styles.icon}>
                         <a className="fas fa-utensils" href="https://mw.pusan.ac.kr/10_Food/Food.asp?boardName=R005"></a>
                         <span className={styles.text}>학</span>
                     </span>
+                    </Link>
+                    
                     <span className={styles.icon}>
                         <a className="fas fa-truck" href="https://whereismine.tk"></a>
                     </span>

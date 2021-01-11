@@ -8,10 +8,8 @@ import { Table } from '../table/toStation/table_tostation';
 
 const Navbar = (props) => {
     const dataS = TO_STATION_BUS_DATA;
-  const data_vacS = TO_STATION_BUS_DATA_VAC;
-  
-
-  const data_vac_onlyS = TO_STATION_BUS_DATA_VAC_ONLY;
+    const data_vacS = TO_STATION_BUS_DATA_VAC;
+    const data_vac_onlyS = TO_STATION_BUS_DATA_VAC_ONLY;
     
     // const week = document.getElementById("dataS");
     const vac = document.getElementById("data_vacS");
@@ -24,12 +22,12 @@ const Navbar = (props) => {
         // week.scrollIntoView({behavior:'smooth',block:'start'});
     };
     const scrollToVac=()=>{
-        // window.scrollTo({ top: 1440, behavior: 'smooth' }); 
-        vac.scrollIntoView({behavior:'smooth'});
+        window.scrollTo({ top: 1440, behavior: 'smooth' }); 
+        // vac.scrollIntoView({behavior:'smooth'});
     };
     const scrollToVacOnly=()=>{
-        // window.scrollTo({ top: 1480, behavior: 'smooth' });
-        vacOnly.scrollIntoView({behavior:'smooth'});
+        window.scrollTo({ top: 2134, behavior: 'smooth' });
+        // vacOnly.scrollIntoView({behavior:'smooth'});
     };
     
     return(

@@ -6,9 +6,7 @@ const Meals = (props) => {
     const result = props.meals.map((meal)=>meal.mealDate);
     const meal = new Set(result);
     const mealDate = Array.from(meal);
-    const date = document.querySelector(`${styles.date}`);
-console.log(date);
-const week = ['일', '월', '화', '수', '목', '금', '토'];
+    const week = ['일', '월', '화', '수', '목', '금', '토'];
  
     return(
         <ul className={styles.contanier}> 
