@@ -3,7 +3,7 @@ import styles from './main.module.css';
 import {Link } from 'react-router-dom';
 
 const Main = (props) => (
-    <body className={styles.container}>
+    <div className={styles.container}>
             <Link to="/bus" className={styles.link}>
                 <section className={styles.btn1}>버스</section>
             </Link>
@@ -29,7 +29,7 @@ const Main = (props) => (
         </section>
         </section>
         
-    </body>
+    </div>
 
             
     );
