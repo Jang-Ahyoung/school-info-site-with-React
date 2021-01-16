@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 5rem;
+  margin: auto;
 }
 
 .btn1,
@@ -12,9 +13,10 @@
   text-decoration: none;
   width: 60%;
   padding: 1.3rem 0rem;
-  border-radius: 25px;
+  border-radius: 20px;
   text-align: center;
   cursor: pointer;
+  margin-bottom: 2.5rem;
 }
 .btn1 {
   color: rgb(80, 78, 78);
@@ -31,4 +33,10 @@
     rgba(142, 197, 252, 1) 0%,
     rgba(224, 195, 252, 1) 100%
   );
+}
+@media screen and (min-width: 400px) {
+  .body {
+    margin-top: 5rem;
+    width: 400px;
+  }
 }

@@ -7,7 +7,9 @@ import Header from './components/header/header';
 import Navbar from './components/navbar_toStation/navbar';
 import NavbarC from './components/navbar_toCampus/navbar';
 import BusMain from './components/bus_main/busmain';
-import Main from './components/main/main';
+import Test from './components/test/test';
+import DeliveryCard from './components/DeliveryCard/card';
+import Taxi from './components/TAXI/taxi';
 
 function App({ meal }) {
   const [meals, setMeals] = useState([]);
@@ -22,7 +24,7 @@ function App({ meal }) {
       <Switch>
         <Route exact path="/">
           <Header />
-          <Main />
+          <Test />
         </Route>
 
         <Route exact path="/bus">
@@ -33,17 +35,21 @@ function App({ meal }) {
         <Route exact path="/bustoStation">
           <Header />
           <Navbar />
+          <Taxi />
         </Route>
         <Route exact path="/bustoPusanUn">
           <Header />
           <NavbarC />
+          <Taxi />
         </Route>
-
-
 
         <Route path="/meal">
           <Header />
           <Meals meals={meals} />
+        </Route>
+        <Route exact path="/delivery">
+          <Header />
+          <DeliveryCard />
         </Route>
       </Switch>
     </BrowserRouter>

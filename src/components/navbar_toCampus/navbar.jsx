@@ -11,7 +11,6 @@ const NavbarC = (props) => {
     const data = TO_CAMPUS_BUS_DATA;
     const data_vac = TO_CAMPUS_BUS_DATA_VAC;
     const data_vac_only = TO_CAMPUS_BUS_DATA_VAC_ONLY;
-
     const scrollTO=(top,right)=>{
         const point = document.getElementById("pointer");
         console.log(point);
@@ -26,7 +25,7 @@ const NavbarC = (props) => {
                 <span className={styles.nav_menu} onClick={() => {scrollTO(0,75)}}>학교 개강<br/>(평일)</span>
                 <span className={styles.nav_menu} onClick={() => {scrollTO(1465,50)}}>주말,공휴일  +<br/>대학 방학</span>
                 <span className={styles.nav_menu} onClick={() => {scrollTO(2183,25)}}>대학만 방학<br/>(중고등 개학)</span>
-                <span className={styles.nav_menu}>Taxi</span>
+                <span className={styles.nav_menu} onClick={() => {scrollTO(document.body.scrollHeight,0)}}>Taxi</span>
             </header>
 
                 <Table2 data={data} />

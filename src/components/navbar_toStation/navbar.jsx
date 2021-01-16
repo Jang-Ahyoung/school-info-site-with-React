@@ -25,7 +25,7 @@ const Navbar = (props) => {
                 <span className={styles.nav_menu} onClick={() => {scrollTO(0,75)}}>학교 개강<br/>(평일)</span>
                 <span className={styles.nav_menu} onClick={() => {scrollTO(1465,50)}}>주말,공휴일  +<br/>대학 방학</span>
                 <span className={styles.nav_menu} onClick={() => {scrollTO(2183,25)}}>대학만 방학<br/>(중고등 개학)</span>
-                <span className={styles.nav_menu}>Taxi</span>
+                <span className={styles.nav_menu} onClick={() => {scrollTO(document.body.scrollHeight,0)}}>Taxi</span>
             </header>
 
                 <Table data={dataS} />

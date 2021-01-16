@@ -1,0 +1,37 @@
+.card {
+  /* width: 80%; */
+  min-width: 15rem;
+  border: 1px solid gray;
+  padding: 1.2rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  /* margin: auto; */
+}
+
+.title {
+  margin-bottom: 0.3rem;
+}
+.content {
+  margin: 0;
+  margin-bottom: 0;
+  /* width: 4rem; */
+}
+
+.tel {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: rgb(97, 96, 96);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.link {
+  color: blue;
+  cursor: pointer;
+}

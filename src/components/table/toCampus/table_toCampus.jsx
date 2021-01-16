@@ -2,6 +2,7 @@ import React,{useMemo} from 'react';
 import {COLUMNS} from '../../JSON_File/cloumns2';
 import {useTable} from 'react-table';
 import styles from './table_toCampus.module.css';
+import Taxi from '../../TAXI/taxi';
 
 
 //rafc
@@ -45,6 +46,7 @@ export const Table2 =(props)=>{
                 }
             </tbody>
         </table>
+
     )
 
 
