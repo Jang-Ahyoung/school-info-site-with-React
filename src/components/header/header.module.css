@@ -26,6 +26,8 @@
   color: white;
 }
 .icon {
+  text-decoration: none;
+  color: white;
   padding: 7px 10px;
   margin: 0 2px;
 }

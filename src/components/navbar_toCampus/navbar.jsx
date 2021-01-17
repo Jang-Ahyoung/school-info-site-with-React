@@ -6,6 +6,7 @@ import TO_CAMPUS_BUS_DATA_VAC from '../JSON_File/vac_StationToCampus';
 import TO_CAMPUS_BUS_DATA_VAC_ONLY from '../JSON_File/vacCampusOnly_StationToCampus';
 import { Table2 } from '../table/toCampus/table_toCampus';
 import Taxi from '../TAXI/taxi';
+import Header from '../header/header';
 
 const NavbarC = (props) => {
     const height = 69; 
@@ -28,6 +29,7 @@ const NavbarC = (props) => {
 
     return(
         <>
+        <Header/>
             <header id='first' className={styles.container} >
                 <span id='pointer'className="pointBar"></span>
                 <span className={styles.nav_menu} onClick={() => {scrollTO(75,'data')}}>학교 개강<br/>(평일)</span>

@@ -1,6 +1,6 @@
-import React from 'react';
+import React,{memo} from 'react';
 import styles from './taxi.module.css';
-const Taxi = (props) => (
+const Taxi = memo((props) => (
         <div className={styles.taxi}>
             <span className={styles.container}>
                 <span className={styles.num}>
@@ -24,6 +24,6 @@ const Taxi = (props) => (
             </span>
 
         </div>
-    );
+));
 
 export default Taxi;

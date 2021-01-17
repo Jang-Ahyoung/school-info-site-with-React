@@ -1,10 +1,10 @@
-import React,{useMemo} from 'react';
+import React,{useMemo,memo} from 'react';
 import {COLUMNS} from '../../JSON_File/cloumns2';
 import {useTable} from 'react-table';
 import styles from './table_toCampus.module.css';
 
 //rafc
-export const Table2 =(props)=>{
+export const Table2 = memo((props)=>{
     const columns = useMemo(()=>COLUMNS,[]);
     const data = useMemo(()=>props.data,[]);
     const tableInstance1 = useTable({ 
@@ -44,11 +44,5 @@ export const Table2 =(props)=>{
                 }
             </tbody>
         </table>
-
     )
-
-
-
-
-
-}
+})

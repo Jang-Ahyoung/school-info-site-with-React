@@ -1,12 +1,7 @@
-import React from 'react';
+import React,{memo}  from 'react';
 import {Link } from 'react-router-dom';
 import styles from './header.module.css';
-const Header = (props) => {
-    const move = (e,url)=>{
-        e.preventDefault();
-        window.location.href=`http://${url}`;
-    }
-
+const Header = memo((props) => {
     return(
         <nav className={styles.navbar}>
             <Link to="/" className={styles.link}>
@@ -22,20 +17,23 @@ const Header = (props) => {
                         <a className="fas fa-utensils" ></a>
                         <span className={styles.text}>긱</span></span>
                 </Link>
-                
-                <span className={styles.icon} onClick={(e) => {move(e, 'mw.pusan.ac.kr/10_Food/Food.asp?boardName=R005')}}>
-                        <a className="fas fa-utensils" ></a>
-                        <span className={styles.text}>학</span></span>
 
-                <span className={styles.icon} onClick={(e) => {move(e, 'whereismine.tk')}}>
-                    <a className="fas fa-truck"></a>
-                </span>
+                <a className={styles.icon}  href={'http://mw.pusan.ac.kr/10_Food/Food.asp?boardName=R005'}>
+                    <i className="fas fa-utensils" ></i>
+                    <span className={styles.text}>학</span>
+                </a>
+                
+                        
+
+                <a className={styles.icon} href={'http://whereismine.tk'}>
+                    <i className="fas fa-truck"></i>
+                </a>
             </section>
             <section className={styles.contact}><p className={styles.message}>
                     <i className="far fa-address-card"></i>
                     <span className={styles.message_text}>wegotthelove27@gmail.com</span>  </p>
             </section>
         </nav>
-    )};
+    )});
 
 export default Header;

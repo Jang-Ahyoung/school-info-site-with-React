@@ -12,8 +12,9 @@
   display: inline-block;
   text-align: center;
   text-decoration: none;
+  font-size: 0.85rem;
   color: white;
-  padding: 2rem 0rem;
+  padding: 1.5rem 0rem;
   border-radius: 10px;
   margin-bottom: 20px;
   cursor: pointer;
@@ -54,6 +55,7 @@
 }
 .second {
   width: 48%;
+  text-decoration: none;
 }
 .color1 {
   background-size: 200% auto;
@@ -72,8 +74,22 @@
   background-position: right center;
 }
 
+.made {
+  text-align: center;
+  font-size: 0.8rem;
+  color: gray;
+}
+
 @media screen and (min-width: 400px) {
   .body {
     width: 320px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .singular,
+  .first,
+  .second {
+    font-size: 1rem;
+    padding: 2rem 0rem;
   }
 }

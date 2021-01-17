@@ -1,10 +1,10 @@
-import React,{useMemo} from 'react';
+import React,{useMemo,memo} from 'react';
 import {COLUMNS} from '../../JSON_File/cloumns';
 import {useTable} from 'react-table';
 import styles from './table_station.module.css';
 
 
-export const Table =(props)=>{
+export const Table =memo((props)=>{
     const columns = useMemo(()=>COLUMNS,[]);
     const data = useMemo(()=>props.data,[]);
 
@@ -34,8 +34,6 @@ export const Table =(props)=>{
                         ))
                 
                 }
-                    
-
                 </thead>
                 <tbody {...getTableBodyProps()}>
                     {
@@ -51,13 +49,6 @@ export const Table =(props)=>{
                         })
                     }
                 </tbody>
-
             </table>
-
     )
-
-
-
-
-
-}
+})

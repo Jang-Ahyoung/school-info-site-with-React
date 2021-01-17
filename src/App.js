@@ -3,7 +3,6 @@ import './App.css';
 import '@fortawesome/fontawesome-free/js/all.js';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Meals from './components/meals/meals';
-import Header from './components/header/header';
 import Navbar from './components/navbar_toStation/navbar';
 import NavbarC from './components/navbar_toCampus/navbar';
 import BusMain from './components/bus_main/busmain';
@@ -21,33 +20,12 @@ function App({ meal }) {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
-          <Header />
-          <Test />
-        </Route>
-
-        <Route exact path="/bus">
-          <Header />
-          <BusMain />
-        </Route>
-
-        <Route exact path="/bustoStation">
-          <Header />
-          <Navbar />
-        </Route>
-        <Route exact path="/bustoPusanUn">
-          <Header />
-          <NavbarC />
-        </Route>
-
-        <Route path="/meal">
-          <Header />
-          <Meals meals={meals} />
-        </Route>
-        <Route exact path="/delivery">
-          <Header />
-          <DeliveryCard />
-        </Route>
+        <Route exact path="/" component={Test} />
+        <Route path="/bus" component={BusMain} />
+        <Route path="/bustoStation" component={Navbar} />
+        <Route path="/bustoPusanUn" component={NavbarC} />
+        <Route path="/meal"><Meals meals={meals} /></Route>
+        <Route path="/delivery" component={DeliveryCard} />
       </Switch>
     </BrowserRouter>
   );
