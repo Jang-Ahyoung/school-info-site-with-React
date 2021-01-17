@@ -13,7 +13,7 @@ const delivery=[
     url:'store.naver.com/restaurants/detail?id=1318522214'},
     { id : 4, name : 'BHC', tel : '055-352-0969',time :'매일 12:00 - 24:00',
     menu1:'뿌링클 ----------- 17,000원',menu2:'뿌링맵소킹 ----------- 17,000원',menu3:'핫후라이드 -------- 16,000원',option:'* 배달비 10,000원',
-    url:'https://store.naver.com/restaurants/detail?id=36029666'}
+    url:'store.naver.com/restaurants/detail?id=36029666'}
 ];
 const move = (e,url)=>{
   e.preventDefault();

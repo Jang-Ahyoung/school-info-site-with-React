@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  width: 80%;
+  width: 85%;
   margin-top: 4rem;
 }
 .singular,
@@ -11,12 +11,11 @@
 .second {
   display: inline-block;
   text-align: center;
-  text-decoration: 0;
-  font-size: 0.8rem;
+  text-decoration: none;
   color: white;
-  padding: 1.5rem 0rem;
-  border-radius: 15px;
-  margin-bottom: 1rem;
+  padding: 2rem 0rem;
+  border-radius: 10px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 .color {
@@ -75,6 +74,6 @@
 
 @media screen and (min-width: 400px) {
   .body {
-    width: 300px;
+    width: 320px;
   }
 }

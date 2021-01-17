@@ -11,6 +11,7 @@
 }
 .contanier {
   display: flex;
+  max-width: 1064px;
   justify-content: center;
   margin: auto;
   margin-top: 3.2rem;
@@ -51,18 +52,23 @@
   margin: 3rem;
   border-radius: 20px;
 }
-
-@media screen and (min-width: 950px) {
+@media screen and (max-width: 3000px) {
+  .circle {
+    top: 98px;
+  }
+  .title {
+    top: 120px;
+  }
   .contanier {
-    width: 56rem;
+    padding-top: 7rem;
   }
 }
 @media screen and (max-width: 768px) {
   .circle {
-    top: 20%;
+    top: 110px;
   }
   .title {
-    top: 24%;
+    top: 135px;
   }
   .contanier {
     padding-top: 7rem;
@@ -70,7 +76,7 @@
 }
 @media screen and (max-width: 499px) {
   .contanier {
-    padding-top: 8rem;
+    padding-top: 7.5rem;
   }
 
   .date {

@@ -7,8 +7,6 @@ const Test = (props) => {
         e.preventDefault();
         window.location.href=`http://${url}`;
     }
-
-
     return(
         <section className={styles.body}>
             <Link to="bus" className={`${styles.singular} ${styles.bus_color}`}>BUS 시간표</Link>
