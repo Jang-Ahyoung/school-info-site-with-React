@@ -1,10 +1,20 @@
-import React,{memo} from 'react';
+import React,{memo,useEffect,useState} from 'react';
 import Header from '../header/header';
 import Meal from '../meal/meal';
 import styles from './meals.module.css';
+import MealAPI from '../../service/mealAPI';
+const mealdata = new MealAPI();
 
 const Meals = memo((props) => {
-    const result = props.meals.map((meal)=>meal.mealDate);
+    
+    const [meals, setMeals] = useState([]);
+
+    useEffect(() => {
+        mealdata.mealAPI().then(result => setMeals(result))
+        .catch(error => console.log('error', error));
+    }, []);
+
+    const result = meals.map((meal)=>meal.mealDate);
     const meal = new Set(result);
     const mealDate = Array.from(meal);
     const week = ['일', '월', '화', '수', '목', '금', '토'];
@@ -28,7 +38,7 @@ const Meals = memo((props) => {
                 )
             }<br/></div>
             <section className={styles.meals}> 
-                {props.meals.map(meal =>(
+                {meals.map(meal =>(
                     <Meal key={meal.mealDate+meal.mealKindGcd} meal={meal} mealDate={mealDate}/>
                 ))}
             </section>

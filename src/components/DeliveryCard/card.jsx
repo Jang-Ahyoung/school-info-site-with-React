@@ -17,13 +17,8 @@ const DeliveryCard = memo((props) => {
     menu1:'뿌링클 ----------- 17,000원',menu2:'뿌링맵소킹 ----------- 17,000원',menu3:'핫후라이드 -------- 16,000원',option:'* 배달비 10,000원',
     url:'//store.naver.com/restaurants/detail?id=36029666'}
   ];
-
-  const move = (url)=>{
-    window.location.href=`http://${url}`;
-  }
-
   return(
-  <>
+  <div>
     <Header/>
       <section className={styles.body}>
         {delivery.map((delivery)=>
@@ -36,7 +31,7 @@ const DeliveryCard = memo((props) => {
         </section>
       )}
       </section>
-      </>  
+      </div>  
   )}
 );
 

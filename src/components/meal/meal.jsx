@@ -2,6 +2,7 @@ import React,{memo} from 'react';
 import styles from './meal.module.css';
 
 const Meal = memo((props) => {
+    
     return(
     <div>
         <span className={styles.per_meal}>
