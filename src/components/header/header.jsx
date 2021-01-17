@@ -12,7 +12,7 @@ const Header = (props) => {
             <Link to="/" className={styles.link}>
                 <section className={styles.logo}>
                     <div className={styles.logonIcon}><i class="fab fa-slack"></i></div>
-                    PNU INFO</section></Link>
+                    Pusan Univer. Miryang</section></Link>
             
             <section className={styles.menu}>
                 <Link to="/bus" className={styles.link}><span className={styles.icon}>

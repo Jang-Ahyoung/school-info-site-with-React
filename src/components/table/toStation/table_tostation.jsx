@@ -4,7 +4,6 @@ import {useTable} from 'react-table';
 import styles from './table_station.module.css';
 
 
-//rafc
 export const Table =(props)=>{
     const columns = useMemo(()=>COLUMNS,[]);
     const data = useMemo(()=>props.data,[]);
@@ -21,7 +20,6 @@ export const Table =(props)=>{
     const {getTableProps, getTableBodyProps,headerGroups,rows,prepareRow}=tableInstance;
 
     return(
-        <>
             <table {...getTableProps()} className={styles.contanier} > 
                 <thead>
                     {
@@ -55,8 +53,7 @@ export const Table =(props)=>{
                 </tbody>
 
             </table>
-        </>
-        
+
     )
 
 

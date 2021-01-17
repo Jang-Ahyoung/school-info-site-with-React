@@ -2,12 +2,9 @@ import React,{useMemo} from 'react';
 import {COLUMNS} from '../../JSON_File/cloumns2';
 import {useTable} from 'react-table';
 import styles from './table_toCampus.module.css';
-import Taxi from '../../TAXI/taxi';
-
 
 //rafc
 export const Table2 =(props)=>{
-
     const columns = useMemo(()=>COLUMNS,[]);
     const data = useMemo(()=>props.data,[]);
     const tableInstance1 = useTable({ 
@@ -15,6 +12,7 @@ export const Table2 =(props)=>{
         data
     })
     const {getTableProps, getTableBodyProps,headerGroups,rows,prepareRow}=tableInstance1;
+
 
     return(
         <table {...getTableProps()} className={styles.contanier} > 
@@ -24,7 +22,7 @@ export const Table2 =(props)=>{
                         <tr {...headerGroups.getHeaderGroupProps()}>
                             {
                                 headerGroups.headers.map(column=>(
-                                    <th {...column.getHeaderProps()}>{column.render('Header')}</th>
+                                    <th id='height' {...column.getHeaderProps()}>{column.render('Header')}</th>
                                 ))
                             }
                         </tr>

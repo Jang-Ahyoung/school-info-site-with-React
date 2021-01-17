@@ -9,7 +9,6 @@ import NavbarC from './components/navbar_toCampus/navbar';
 import BusMain from './components/bus_main/busmain';
 import Test from './components/test/test';
 import DeliveryCard from './components/DeliveryCard/card';
-import Taxi from './components/TAXI/taxi';
 
 function App({ meal }) {
   const [meals, setMeals] = useState([]);
@@ -35,12 +34,10 @@ function App({ meal }) {
         <Route exact path="/bustoStation">
           <Header />
           <Navbar />
-          <Taxi />
         </Route>
         <Route exact path="/bustoPusanUn">
           <Header />
           <NavbarC />
-          <Taxi />
         </Route>
 
         <Route path="/meal">
