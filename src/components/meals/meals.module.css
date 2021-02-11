@@ -9,6 +9,7 @@
   border-radius: 50%;
   box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.74);
 }
+
 .contanier {
   display: flex;
   max-width: 1064px;
@@ -24,6 +25,7 @@
   );
   width: 95%;
   border-radius: 20px;
+  min-height: 150px;
 }
 .title {
   position: absolute;
@@ -33,6 +35,7 @@
   background-color: rgba(130, 179, 219, 0.705);
   padding: 1.2rem 1.5rem;
   border-radius: 20px;
+  user-select: none;
 }
 .line {
   height: 12.9rem;
@@ -51,6 +54,13 @@
   padding: 2rem 1rem;
   margin: 3rem;
   border-radius: 20px;
+}
+.vac {
+  color: white;
+  word-spacing: 0.1rem;
+  margin-top: 40px;
+  font-weight: 500;
+  user-select: none;
 }
 @media screen and (max-width: 3000px) {
   .circle {

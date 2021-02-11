@@ -5,6 +5,7 @@
   margin: auto;
   width: 85%;
   margin-top: 4rem;
+  user-select: none;
 }
 .singular,
 .first,

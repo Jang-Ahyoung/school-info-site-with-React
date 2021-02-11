@@ -17,13 +17,18 @@
   text-align: center;
   cursor: pointer;
   margin-bottom: 2.5rem;
+  outline: none;
+  text-decoration: none;
 }
 .btn1 {
-  color: rgb(80, 78, 78);
-  background: linear-gradient(
-    90deg,
-    rgba(133, 255, 189, 1) 0%,
-    rgba(255, 251, 125, 1) 100%
+  color: black;
+  background-size: 200% auto;
+  transition: 0.5s;
+  background-image: linear-gradient(
+    to right,
+    #aaf8c7 0%,
+    #8fd3f4 51%,
+    #84fab0 100%
   );
 }
 .btn2 {
@@ -34,6 +39,12 @@
     rgba(224, 195, 252, 1) 100%
   );
 }
+.btn1:hover,
+.btn2:hover {
+  text-decoration: none;
+  background-position: right center;
+}
+
 @media screen and (min-width: 400px) {
   .body {
     margin-top: 5rem;
