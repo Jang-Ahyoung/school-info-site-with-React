@@ -6,6 +6,7 @@
   background: #263343;
   padding: 8px 15px;
   color: white;
+  user-select: none;
 }
 .logo {
   display: flex;
@@ -74,14 +75,14 @@
   padding: 10px 15px;
   position: absolute;
   z-index: 0;
-  top: 140%;
+  top: 130%;
   right: -110%;
 }
 
 .message .message_text::after {
   content: "";
   position: absolute;
-  bottom: 100%;
+  bottom: 98%;
   left: 87%;
   margin-left: -10px;
   border-width: 10px;

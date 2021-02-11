@@ -7,7 +7,7 @@ const Header = memo((props) => {
             <Link to="/" className={styles.link}>
                 <section className={styles.logo}>
                     <div className={styles.logonIcon}><i class="fab fa-slack"></i></div>
-                    Pusan Univer. Miryang</section></Link>
+                    부산대 Miryang Campus</section></Link>
             
             <section className={styles.menu}>
                 <Link to="/bus" className={styles.link}><span className={styles.icon}>
@@ -22,8 +22,6 @@ const Header = memo((props) => {
                     <i className="fas fa-utensils" ></i>
                     <span className={styles.text}>학</span>
                 </a>
-                
-                        
 
                 <a className={styles.icon} href={'http://whereismine.tk'}>
                     <i className="fas fa-truck"></i>
