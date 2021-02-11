@@ -14,7 +14,7 @@ const Test = memo((props) => {
                 <a className={`${styles.second} ${styles.color}`} href={'//mw.pusan.ac.kr/10_Food/Food.asp?boardName=R005'}>학식 🍴</a>
             </span>
             
-            <a className={`${styles.singular} ${styles.polar_color}`} href={'//angluvpeng.netlify.app'}>TAKE A SAMLL REST</a>
+            <a className={`${styles.singular} ${styles.polar_color}`} href={'//savethepolarbear.netlify.app/'}>TAKE A SAMLL REST</a>
 
             <span className={styles.span}>
                 <Link to="delivery" className={`${styles.first} ${styles.color}`}>배달 🍔</Link>
