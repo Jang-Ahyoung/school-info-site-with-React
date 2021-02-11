@@ -25,7 +25,8 @@ const Meals = memo((props) => {
         <ul className={styles.contanier}> 
         <div className={styles.circle}></div>
         <p className={styles.title}>기숙사 식단표 🍚</p>
-            <div className={styles.date}>{
+            <div className={styles.date}>
+                { !mealDate ?
                 mealDate.map((mealdate)=>{
                     return(
                     <section className={styles.line}>
@@ -35,8 +36,10 @@ const Meals = memo((props) => {
                     </p>
                     </section> 
                     )}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-                )
-            }<br/></div>
+                ) : <p className={styles.vac}>📜 연휴 및 방학 기간입니다 🎠</p>
+            }
+            
+            <br/></div>
             <section className={styles.meals}> 
                 {meals.map(meal =>(
                     <Meal key={meal.mealDate+meal.mealKindGcd} meal={meal} mealDate={mealDate}/>
