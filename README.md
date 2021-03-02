@@ -3,7 +3,7 @@
 ![issue bedge](https://img.shields.io/badge/node-v%204.14.0-brightgreen)
 
 
->  React로 제작, 캠퍼스의 다양한 편의 시스템을 갖춘 사이트<br />
+>  React로 업데이트, 캠퍼스의 다양한 편의 시스템을 갖춘 사이트<br />
 
 
 ## 🎅 developer
