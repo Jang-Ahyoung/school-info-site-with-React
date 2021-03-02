@@ -18,7 +18,7 @@ const Meals = memo((props) => {
     const meal = new Set(result);
     const mealDate = Array.from(meal);
     const week = ['일', '월', '화', '수', '목', '금', '토'];
- 
+
     return(
         <>
         <Header/>
@@ -26,7 +26,7 @@ const Meals = memo((props) => {
         <div className={styles.circle}></div>
         <p className={styles.title}>기숙사 식단표 🍚</p>
             <div className={styles.date}>
-                { !mealDate ?
+                { mealDate ?
                 mealDate.map((mealdate)=>{
                     return(
                     <section className={styles.line}>
@@ -36,7 +36,7 @@ const Meals = memo((props) => {
                     </p>
                     </section> 
                     )}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-                ) : <p className={styles.vac}>📜 연휴 및 방학 기간입니다 🎠</p>
+                ) : <p className={styles.vac}>연휴 및 방학 기간입니다 🎠</p>
             }
             
             <br/></div>
