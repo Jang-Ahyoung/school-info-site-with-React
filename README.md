@@ -13,7 +13,7 @@
 
 ## 💙 SITE
 
- [https://pusan-university-miryangcampus.ga/](https://pusan-university-miryangcampus.netlify.app)<br />
+ [https://pusan-university-miryangcampus.netlify.app/](https://pusan-university-miryangcampus.netlify.app)<br />
 
 ## 🏍 Demo 
 > - 편리한 대중교통 시간표 확인 <br /> 
