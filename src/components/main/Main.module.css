@@ -1,0 +1,96 @@
+.container {
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+  max-width: 800px;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.section:first-child {
+  margin-top: 7vh;
+}
+
+.btn {
+  padding: 5%;
+  width: 35%;
+  font-size: 7vw;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+.first {
+  background-color: #c0dfd8;
+  color: #3e6b5c;
+}
+.second {
+  cursor: unset;
+  background-color: #9ebed4a2;
+  color: #3a5b6e;
+}
+
+.third {
+  text-decoration: none;
+  background-color: #fca4a985;
+  color: #ff868c;
+}
+.forth {
+  background-color: #fff0cab0;
+  color: #fce19d;
+}
+.text {
+  color: rgb(66, 63, 63);
+  font-weight: bold;
+  font-size: max(3vw, 18px);
+  letter-spacing: 1px;
+}
+
+.selectBtnContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectBtn {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 45%;
+  padding: 8px 0px;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+  color: rgb(65, 62, 62);
+  font-size: min(max(2.8vw, 12px), 16px);
+  border-top: 1.5px solid rgba(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.322);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.clickArrow {
+  color: black;
+  margin: 0;
+  margin-top: 10px;
+  text-align: right;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 900px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 800px;
+  }
+}
