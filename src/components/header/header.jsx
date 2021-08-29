@@ -7,7 +7,9 @@ const Header = memo((props) => {
             <Link to="/" className={styles.link}>
                 <section className={styles.logo}>
                     <div className={styles.logonIcon}><i class="fab fa-slack"></i></div>
-                    부산대 Miryang Campus</section></Link>
+                    부산대 Miryang Campus
+                </section>
+            </Link>
 
             <section className={styles.menu}>
                 <Link to="/bus" className={styles.link}><span className={styles.icon}>
@@ -23,13 +25,16 @@ const Header = memo((props) => {
                     <span className={styles.text}>학</span>
                 </a>
 
-                <a className={styles.icon} href={'http://where-is-mine.netlify.app'}>
-                    <i className="fas fa-truck"></i>
+                <a className={styles.icon} href={"https://mw.pusan.ac.kr/07_Notice/CalendarList.new.html"}>
+                    <i className="fas fa-graduation-cap"></i>
                 </a>
             </section>
-            <section className={styles.contact}><p className={styles.message}>
-                <i className="far fa-address-card"></i>
-                <span className={styles.message_text}>wegotthelove27@gmail.com</span>  </p>
+
+            <section className={styles.contact}>
+                <p className={styles.message}>
+                    <i className="far fa-address-card"></i>
+                    <span className={styles.message_text}>wegotthelove27@gmail.com</span>
+                </p>
             </section>
         </nav>
     )

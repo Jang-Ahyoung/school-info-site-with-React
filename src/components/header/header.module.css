@@ -21,6 +21,7 @@
 .menu {
   font-size: 18px;
   margin: 0.5rem;
+  width: 30%;
 }
 .link {
   text-decoration: none;
@@ -98,13 +99,17 @@
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
-  }
-  .navbar {
     padding: 8px 0px;
+  }
+  .logo{
+  font-size: max(1.3rem, 15px);
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
   }
   .icon {
     font-size: 15px;
-    /* margin-top: 10px; */
   }
   .contact {
     display: none;
