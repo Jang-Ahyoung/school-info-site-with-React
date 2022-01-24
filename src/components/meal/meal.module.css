@@ -3,7 +3,7 @@
 }
 
 .per_meal,
-.time,
+.meal_kind,
 .meal {
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@
   padding-right: 1rem;
 }
 
-.time {
+.meal_kind {
   justify-content: center;
   background-color: pink;
   height: 100%;
