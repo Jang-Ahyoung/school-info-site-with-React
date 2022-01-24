@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./meal.module.css";
 
-
 const Meal = ({ meal }) => {
-
   return (
     <div>
       <span className={styles.per_meal}>
