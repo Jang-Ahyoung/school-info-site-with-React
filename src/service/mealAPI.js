@@ -7,30 +7,30 @@ class MealAPI {
     }
 
     async mealAPI() {
+        const date = new Date();
+        const formatDate = (date) => {
+            return new Date(checkDateValidation(date)).toISOString().split("T")[0];
+        };
+        
+        const calcMouth = (range) => {
+            let date = new Date();
+            date.setMonth(date.getMonth() + range);
+            return formatDate(date);
+        };
 
-        const today = new Date();
-
-        const todayDate = '0' + today.getDate();
-
-        const Monthtoday = '0' + (today.getMonth() + 1);
-
-        const today_date = today.getFullYear() + '-' + Monthtoday.slice(-2) + '-' + todayDate.slice(-2);
-
-        // 한달 후 날짜 정보
-        const todayForAfer = new Date();
-        todayForAfer.setMonth(todayForAfer.getMonth() + 1);
-        const MonthAfter1Month = '0' + (todayForAfer.getMonth() + 1);
-        const DayAfter1Month = '0' + todayForAfer.getDate();
-        const dayAfter1Month = todayForAfer.getFullYear() + '-' + MonthAfter1Month.slice(-2) + '-' + DayAfter1Month.slice(-2);
-
-        const response = await fetch(`
-        https://api.pusan.ac.kr:8443/meal/sub?no=3&startDt=${today_date}&endDt=${dayAfter1Month}`,
+        const checkDateValidation = (date) => {
+            const dateRange = (date.getDay() || 6) - 1;
+            if (dateRange === 0) return;
+            else return date.setDate(date.getDate() - dateRange);
+        };
+        
+        const response = await fetch(`https://api.pusan.ac.kr:8443/meal/sub?no=3&startDt=${formatDate(date)}&endDt=${calcMouth(1)}`,
             this.requestOptions
         );
+       
         const result = await response.json();
         return result;
     }
-
 }
 
 export default MealAPI;
